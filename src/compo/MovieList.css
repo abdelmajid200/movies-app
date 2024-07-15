@@ -1,0 +1,40 @@
+.movie-list-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.add-movie-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.add-movie-button:hover {
+  background-color: #0056b3;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
